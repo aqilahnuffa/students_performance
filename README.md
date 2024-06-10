@@ -59,7 +59,7 @@ streamlit run student_predict.py
 ```
 
 *Prototype link*
-[Prediksi siswa]()
+[Prediksi siswa](https://studentsperformance-aqilahnuffa.streamlit.app/)
 
 ## Conclusion
 Berdasarkan analisis yang telah dilakukan, dapat disimpulkan bahwa faktor-faktor pada data _Gender, Debtor, Marital_status, Displaced, Tuition_up_to_date, Scholarship_holder, Appliation_mode, Previous_qualification_grade,
