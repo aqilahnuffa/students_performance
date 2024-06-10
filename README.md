@@ -22,10 +22,14 @@ Sumber data: [Dataset](https://doi.org/10.24432/C5MC89)
 
 Setup environment:
 
-* Aktifkan env dengan perintah berikut
+Buat sebuah virtual environment dengan menjalankan perintah berikut
 ```
-myenv\Scripts\activate
+pipenv install
 ```
+Aktifkan virtual environment dengan menjalankan perintah berikut
+```
+pipenv shell
+```   
 install requirements
 ```
 pip install -r requirements.txt
@@ -37,6 +41,11 @@ Business Dashboard ini bertujuan menyajikan informasi terkait performa para sisw
 * Informasi Umum & Analisis Distribusi : Menampilkan data Jumlah siswa, jumlah siswa yang melakukan drop out dan siswa yang lulus, jumlah pemegang beasiswa dan jumlah debitur, selain itu terdapat beberapa informasi distribusi terkait Gender, status Pernikahan, status Perpindahan, status siswa yang mendapat biaya terkini, nilai rata rata usia saat mendaftar berdasar siswa Drop out dan siswa Graduate, dan rata rata nilai kualifikasi sebelumnya, juga meliputi data terkait pilihan mode apllikasi para siswa
 * Analisis performa pada semester awal : Meneliti jumlah kurikulum yang di ambil, kurikulum yang diminta dan nilai kurikulum pada semester awal
 * Analisis performa pada semester kedua : Meneliti jumlah kurikulum yang di ambil, kurikulum yang diminta dan nilai kurikulum pada semester kedua
+
+*Link Dashboard :*
+- *username/email: root@gmail.com*
+- *password: root123*
+- localhost:3000/setup
 
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
